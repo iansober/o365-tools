@@ -37,3 +37,7 @@ It gets distribution groups first and then starts to get all members of them. Yo
 ## shared-mailboxes-report.ps1
 
 The same as ALs-members-report.ps1 but for shared mailboxes.
+
+## users-DLs-membership-report.ps1
+
+Reports about all memberships in gistribution groups for each user. The script is run very slow but it allows to see memberships for each user. Will be refactored and optimized.
