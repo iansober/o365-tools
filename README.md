@@ -33,3 +33,7 @@ You can just remove all shared mailboxes from GAL or specific accounts you enter
 Reports about all distribution groups and members of them.
 
 It gets distribution groups first and then starts to get all members of them. You will see the data as a table in CSV with the columns: DitributionGroup, Member (usernames) and Type.
+
+## shared-mailboxes-report.ps1
+
+The same as ALs-members-report.ps1 but for shared mailboxes.
