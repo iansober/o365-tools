@@ -19,3 +19,11 @@ https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-
 If you have other zone domain name then .com., please edit:
 
 1. Line 8: $upn = Get-MsolUser -UnlicensedUsersOnly | Where-Object UserPrincipalName -Match **".com"** | Select-Object UserPrincipalName
+
+## hide-in-GAL.ps1
+
+Tool for removing accounts from Global Address List.
+
+You can just remove all shared mailboxes from GAL or specific accounts you entered manually or with .csv file.
+
+**CSV should have UserPrincipalName header.**
