@@ -27,3 +27,9 @@ Tool for removing accounts from Global Address List.
 You can just remove all shared mailboxes from GAL or specific accounts you entered manually or with .csv file.
 
 **CSV should have UserPrincipalName header.**
+
+## DLs-members-report.ps1
+
+Reports about all distribution groups and members of them.
+
+It gets distribution groups first and then starts to get all members of them. You will see the data as a table in CSV with the columns: DitributionGroup, Member (usernames) and Type.
